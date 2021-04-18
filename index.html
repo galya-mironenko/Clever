@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>TEST</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/base/reset.css">
+    <link rel="stylesheet" type="text/css" href="css/media/media.css">
+    <link rel="stylesheet" type="text/css" href="css/media/mediamobile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Nunito:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <header class="header" id="header"></header>
+  <section class="wrap breadcrumb">
+    <ul class="breadcrumb__list">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Pages</a></li>
+      <li><a href="#" class="active">Prices</a></li>
+    </ul>
+  </section>
+  <section class="wrap section-prices">
+    <article class="main">
+      <h1>Prices</h1>
+      <p class="main__txt">The following information s considered when charging the order:</p>
+      <div class="about">
+        <div class="about__body">
+          <div class="about__row">
+            <div class="about__column">
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <img src="img/icons/clock.png" alt="clock" />
+                </div>
+                <div class="item-about__title">Your duedate</div>
+              </div>
+            </div>
+            <div class="about__column">
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <img src="img/icons/academic.png" alt="academic" />
+                </div>
+                <div class="item-about__title">Academic level</div>
+              </div>
+            </div>
+            <div class="about__column">
+              <div class="item-about">
+                <div class="item-about__icon">
+                  <img src="img/icons/pages.png" alt="paged" />
+                </div>
+                <div class="item-about__title">Pages/words</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <section class="main__form">
+        <form>
+          <div class="form__radio-currency">
+            <span class="radio-text">Select currency</span>
+            <div class="radio-group">
+              <input type="radio" id="option-usd" name="selector" checked>
+              <label for="option-usd">USD</label>
+
+              <input type="radio" id="option-eur" name="selector">
+              <label for="option-eur">EUR</label>
+
+              <input type="radio" id="option-cad" name="selector">
+              <label for="option-cad">CAD</label>
+
+              <input type="radio" id="option-gbp" name="selector">
+              <label for="option-gbp">GBP</label>
+
+              <input type="radio" id="option-aud" name="selector">
+              <label for="option-aud">AUD</label>
+            </div>
+          </div>
+          <div class="form__services">
+            <span>Type of services</span>
+            <input type="text" id="services" value="Recume/CV services" placeholder="Recume/CV services" class="radio-group" />
+          </div>
+          <div class="form__services-type">
+            <span>Type of services</span>
+            <div class="__select" data-state="">
+              <div class="__select__title" data-default="Option 0">Entry</div>
+              <div class="__select__content">
+                <input id="singleSelect0" class="__select__input" type="radio" name="singleSelect" checked />
+                <label for="singleSelect0" class="__select__label">Entry 1</label>
+                <input id="singleSelect1" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect1" class="__select__label">Entry</label>
+                <input id="singleSelect2" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect2" class="__select__label">Entry 2</label>
+                <input id="singleSelect3" class="__select__input" type="radio" name="singleSelect" />
+                <label for="singleSelect3" class="__select__label">Entry 3</label>
+              </div>
+            </div>
+          </div>
+        </form>
+        <section class="table">
+          <div class="table__wrap">
+            <div class="inner">
+              <h4 class="table__text">Services</h4>
+              <div class="table__caption-group">
+                <h4 class="table__text">5 days</h4>
+                <h4 class="table__text">3 days</h4>
+                <h4 class="table__text">48 hourse</h4>
+                <h4 class="table__text">24 hourse</h4>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="first" id="item1" value="125.55" data-limit="only-one-in-a-group" checked>
+                  <label for="item1">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="first" id="item2" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item2">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="first" id="item3" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item3">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="first" id="item4" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item4">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="second" id="item5" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item5">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="second" id="item6" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item6">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="second" id="item7" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item7">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="second" id="item8" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item8">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="therd" id="item9" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item9">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="therd" id="item10" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item10">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="therd" id="item11" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item11">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="therd" id="item12" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item12">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="four" id="item13" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item13">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="four" id="item14" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item14">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="four" id="item15" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item15">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="four" id="item16" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item16">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="fife" id="item17" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item17">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="fife" id="item18" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item18">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="fife" id="item19" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item19">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="fife" id="item20" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item20">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="six" id="item21" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item21">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="six" id="item22" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item22">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="six" id="item23" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item23">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="six" id="item24" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item24">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="seven" id="item25" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item25">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="seven" id="item26" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item26">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="seven" id="item27" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item27">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="seven" id="item28" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item28">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="eight" id="item29" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item29">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="eight" id="item30" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item30">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="eight" id="item31" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item31">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="eight" id="item32" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item32">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="nine" id="item33" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item33">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="nine" id="item34" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item34">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="nine" id="item35" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item35">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="nine" id="item36" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item36">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t11" id="item37" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item37">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t11" id="item38" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item38">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t11" id="item39" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item39">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t11" id="item40" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item40">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t12" id="item41" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item41">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t12" id="item42" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item42">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t12" id="item43" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item43">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t12" id="item44" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item44">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t13" id="item45" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item45">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t13" id="item46" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item46">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t13" id="item47" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item47">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t13" id="item48" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item48">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t14" id="item49" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item49">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t14" id="item50" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item50">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t14" id="item51" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item51">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t14" id="item52" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item52">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t15" id="item53" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item53">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t15" id="item54" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item54">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t15" id="item55" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item55">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t15" id="item56" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item56">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t16" id="item57" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item57">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t16" id="item58" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item58">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t16" id="item59" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item59">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t16" id="item60" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item60">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t17" id="item61" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item61">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t17" id="item62" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item62">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t17" id="item63" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item63">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t17" id="item64" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item64">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t18" id="item65" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item65">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t18" id="item66" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item66">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t18" id="item67" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item67">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t18" id="item68" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item68">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t19" id="item69" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item69">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t19" id="item70" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item70">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t19" id="item71" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item71">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t19" id="item72" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item72">$125.55</label>
+                </div>
+              </div>
+            </div>
+            <div class="inner">
+              <p class="table__text">Resume writing</p>
+              <div class="table__radio-group">
+                <div class="wr">
+                  <input type="checkbox" name="t20" id="item73" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item73">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t20" id="item74" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item74">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t20" id="item75" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item75">$125.55</label>
+                </div>
+                <div class="wr">
+                  <input type="checkbox" name="t20" id="item76" value="125.55" data-limit="only-one-in-a-group">
+                  <label for="item76">$125.55</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="total">
+          <div class="total__wrap">
+            <div class="total__result">
+              <span class="total__caption">Total price:</span>
+              <span class="total__price table-padding">$</span>
+              <span class="total__price model-price" id="modelPrice">125.55</span>
+            </div>
+            <div class="total__btn">
+              <button>Proceed to order</button>
+            </div>
+          </div>
+        </section>
+      </section>
+    </article>
+    <aside class="sidebar">
+      <div class="sidebar__events">
+        <div class="sidebar__card">
+          <h2 class="sidebar__caption">Free features </h2>
+          <div class="sidebar__text">
+            <p>Lorem ipsum dolor sit amet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptatum!Lorem ipsit amet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptatum!Lorem ipsumamet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptatum!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__events">
+        <div class="sidebar__card">
+          <div class="sidebar__text">
+            <p>Lorem ipsum dolor sit amet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptatum!Lorem ipsit amet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptat
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sidebar__events">
+        <div class="sidebar__card">
+          <div class="sidebar__text">
+            <p>Lorem ipsum dolor sit amet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptatum!Lorem ipsit amet, co nsectetur adipisicing elit. Adipisci amet, architecto c umque libero magni minima no bis non sunt tempora v oluptat
+            </p>
+          </div>
+        </div>
+      </div>
+    </aside>
+  </section>
+  <section class="stats">
+    <div class="stats__about about">
+      <div class="stats__body about__body">
+        <h2>Our Stats</h2>
+        <div class="stats__row about__row">
+          <div class="stats__colum about__column">
+            <div class="stats__item item-about">
+              <div class="item-about__icon">
+                <img src="img/icons/one.png" alt="clock" />
+              </div>
+              <div class="item-about__title">Customers</div>
+              <div class="item-about__title orange__txt">665</div>
+            </div>
+          </div>
+          <div class="stats__colum about__column">
+            <div class="stats__item item-about">
+              <div class="item-about__icon">
+                <img src="img/icons/two.png" alt="academic" />
+              </div>
+              <div class="item-about__title">Witers active</div>
+              <div class="item-about__title orange__txt">169</div>
+            </div>
+          </div>
+          <div class="stats__colum about__column">
+            <div class="stats__item item-about">
+              <div class="item-about__icon">
+                <img src="img/icons/three.png" alt="academic" />
+              </div>
+              <div class="item-about__title">Average quality score <span class="orange__txt">9.5/10</span></div>
+            </div>
+          </div>
+          <div class="stats__colum about__column">
+            <div class="stats__item item-about">
+              <div class="item-about__icon">
+                <img src="img/icons/four.png" alt="paged" />
+              </div>
+              <div class="item-about__title">Writers online </div>
+              <div class="item-about__title orange__txt">73</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <section class="footer__wrap">
+    </section>
+  </footer>
+  <script src="js/main.js"></script>
+  </body>
+  </html>

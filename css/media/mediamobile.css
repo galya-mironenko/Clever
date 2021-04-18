@@ -1,0 +1,138 @@
+@media screen and (max-width: 768px){
+    .footer__wrap:before,
+    .footer__wrap:after{
+        display: none;
+    }
+    .radio-group,
+    .__select{
+        margin-left: 10px;
+        margin-top: 15px;
+    }
+    .form__radio-currency,
+    .form__services,
+    .form__services-type{
+        padding-bottom: 20px;
+    }
+    .table__wrap,
+    .table {
+        overflow-x: scroll;
+    }
+    .total__btn button {
+        width: 270px;
+        height: 38px;
+        font-size: 15px;
+    }
+    .footer__wrap,
+    .footer {
+        height: 110px;
+    }
+    .table:before, .table:after {
+        left: 0px;
+        z-index: 9999;
+    }
+    .about__body h2 {
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .table__caption-group h4 {
+        padding: 16px 25px;
+        text-align: center;
+    }
+    .main__form form {
+        margin-left: 0px
+    }
+    .stats__row {
+        margin: 0;
+        margin-top: 10px;
+    }
+    .table .inner label {
+        padding: 15px 10px;
+    }
+    .inner {
+        padding-left: 0px;
+        background: #fff;
+    }
+    .table {
+        margin-top: 25px;
+    }
+    .__select[data-state=active] .__select__label + .__select__input + .__select__label {
+        width: 274px;
+    }
+    .table__text{
+        padding-right: 10px;
+    }
+    .table__wrap {
+        padding-left: 50px;
+    }
+    .table__caption-group h4 {
+        padding: 16px 18px;
+    }
+    .__select[data-state=active] .__select__content {
+        z-index: 99999;
+    }
+    .sidebar {
+        padding-left: 0px;
+    }
+}
+@media screen and (max-width: 680px){
+    .total__wrap {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .total__result {
+        margin-bottom: 15px;
+    }
+    .radio-group, .__select {
+        width: 278px;
+    }
+    label {
+        padding: 6px 11.5px;
+    }
+}
+@media screen and (max-width: 480px){
+    .main h1 {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .main__txt {
+        margin-top: 14px;
+    }
+    .about__row {
+        flex-direction: column;
+    }
+    .total {
+        padding: 0 10px;
+    }
+    .total__wrap{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+    }
+    .total__result {
+        margin-bottom: 15px;
+    }
+    .sidebar__caption {
+        font-size: 20px;
+    }
+    .sidebar {
+        padding-left: 0px;
+    }
+    .sidebar__text p {
+        font-size: 14px;
+    }
+    .radio-group,
+    .__select{
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width: 375px){
+    .radio-group, .__select{
+        width: 298px;
+    }
+    label {
+        padding: 6px 13.5px;
+    }
+
+}
